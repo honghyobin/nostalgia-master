@@ -14,7 +14,7 @@ hr{
       
     }
     #phon{
-        width: 30%;
+        width: 300px;
     }
 }
 @media (min-width :768px){ /*태블릿*/
@@ -24,7 +24,7 @@ hr{
     
    
     #phon{
-        width: 50%;
+        width: 500px;
     }
 }
 @media(min-width:992px){ /*데스크탑*/
