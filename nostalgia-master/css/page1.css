@@ -8,6 +8,7 @@ hr{
     margin-left: 0;
 }
 
+
 @media (max-width:768px){/*폰*/
     img{
       margin-left: 30%;
@@ -21,50 +22,64 @@ hr{
     body{
         margin:10%;
     }
+
+    .summer{
+        position: absolute;
+        top: 0;
+        margin: 100px 550px;
+    }
+
+    .spring{
+        position: absolute;
+        top: 0;
+        margin: 530px 550px;
+    }
+
+    .fall{
+        position: absolute;
+        top: 0;
+        margin: 970px 550px;
+    }
+
+    .winter{
+        position: absolute;
+        top: 0;
+        margin: 1410px 550px;
+    }
     
    
-    #phon{
-        width: 500px;
-    }
+   
 }
 @media(min-width:992px){ /*데스크탑*/
     body{
         margin: 2%;
         
     }
-    #summer{
+    .summer {
         position: absolute;
-        top: 100px;
-        left: 550px;
-        float: right;
-        padding: 5%;
+        top: 120px;
+        margin: 0px 590px;
+        /*이미지 크기 조절하기x*/
+        max-width: 80%;
+        height: auto;
        
     }
-    
-    #spring{
+    .spring {
         position: absolute;
-        top: 100px;
-        left:1100px;
-        float: right;
-        padding: 5%;
-        
+        top: 120px;
+        margin: 00px 1000px;
     }
-    #winter{
+    .fall {
         position: absolute;
-        top: 600px;
-        left: 550px;
-        float: right;
-        padding: 5%;
-       
+        top: 0px;
+        margin: 600px 590px;
     }
-    #fall{
+    .winter {
         position: absolute;
-        top: 600px;
-        left: 1100px;
-        float: right;
-        padding: 5%;
-       
+        top: 0px;
+        margin: 600px 1000px;
     }
+   
 }
 
 .title{
